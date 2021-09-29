@@ -1,0 +1,127 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(27, 145, 135);
+    padding:16px;
+    margin:0px;
+    border:2px solid;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: 2px;
+    font-size: 2em;
+}
+
+.profile {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    border: #000 solid 1px;
+}
+
+.profile:hover {
+    background-color: red;
+    color: #000;
+}
+
+.about {
+    padding: 10px;
+}
+
+.about td {
+    padding: 10px;
+}
+
+.ability {
+    display: flex;
+    align-content: center;
+    border-spacing: 25px;
+    height: max-content;
+}
+
+.ability td {
+    color: black;
+    padding: 5px;
+}
+
+.ability td ul {
+    vertical-align: middle;
+    
+}
+
+.ability td li {
+    padding: 10px;
+}
+
+.headers {
+    border: 2px solid;
+    font-size: 20px;
+    padding:5px;
+    background-color:#000;
+    color: red;
+    width: 100%;
+}
+
+.sound {
+    text-align: center;
+    align-content: center;
+    height: 50vh;
+}
+
+.song {
+    text-align: center;
+    width: 80%;
+    height: 45vh;
+    scroll-behavior: unset;
+    border: 1px solid #000;
+}
+
+.footer {
+    padding: 20px;
+    background-image: linear-gradient(red, black);
+    text-align: center;
+}
+.footer td{
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.footable {
+    text-align: center;
+    display: flex;
+}
+
+.footable td{
+    align-items: center;
+}
+
+a {
+    color: black;"
+}
+
+a:hover {
+    color: blue
+}
+
+.more ul li {
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width:200px;
+    height:200px;
+    border:2px;
+}
