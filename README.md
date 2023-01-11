@@ -36,7 +36,9 @@ def numberOfSubstrings(s: str) -> int:
             left += 1
         ans += left
     return ans
+ ```
 #Java
+```
 class Solution {
     public int numberOfSubstrings(String s) {
         int count[] = {0, 0, 0}, res = 0, i = 0, n = s.length();
@@ -49,6 +51,7 @@ class Solution {
         return res;
     }
 }
+```
 ##Complexity Analysis
 
 The time complexity of this solution is O(n), where n is the length of the string. This is because we iterate over the string once and make constant updates to the map (or array). The space complexity is O(1), as we are only using a fixed-size map (or array) to keep track of the character counts.
