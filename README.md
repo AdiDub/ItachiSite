@@ -37,7 +37,8 @@ def numberOfSubstrings(s: str) -> int:
         ans += left
     return ans
  ```
-#Java
+
+## Java
 ```
 class Solution {
     public int numberOfSubstrings(String s) {
@@ -52,11 +53,13 @@ class Solution {
     }
 }
 ```
-##Complexity Analysis
+
+## Complexity Analysis
 
 The time complexity of this solution is O(n), where n is the length of the string. This is because we iterate over the string once and make constant updates to the map (or array). The space complexity is O(1), as we are only using a fixed-size map (or array) to keep track of the character counts.
 
-##Visual Explanation
+
+## Visual Explanation
 
 A simple diagram showing how the sliding window works:
 ____________________
